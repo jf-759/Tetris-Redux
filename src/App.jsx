@@ -1,6 +1,5 @@
 import './App.css';
-import GridSquare from './components/GridSquare.jsx';
-import React from 'react';
+import GridBoard from './components/GridBoard.jsx';
 
 function App() {
   return (
@@ -8,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1 className="App-title">Tetris Redux</h1>
       </header>
-      <GridSquare color="1" />
+      <GridBoard />
     </div>
   );
 }
