@@ -51,6 +51,6 @@
 /* next block */
 .next-block {
   display: grid;
-  grid-template-columns: repeat(4, var(--tile-size))
+  grid-template-columns: repeat(4, var(--tile-size));
   align-self: flex-start;
 }
